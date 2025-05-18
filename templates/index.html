@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Conforto Biblico com IA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>💬 Como você está se sentindo?</h2>
+    <input type="text" id="sentimento" placeholder="Digite seu sentimento">
+    <button onclick="enviarSentimento()">Enviar</button>
+
+    <h3>🎧 Música:</h3>
+    <audio id="player" controls style="display:none;">
+        <source id="audioSource" src="" type="audio/wav">
+        Seu navegador não suporta o elemento <code>audio</code>.
+    </audio>
+
+    <h3>📖 Versículo:</h3>
+    <pre id="versiculo"></pre>
+
+    <h3>💌 Conforto:</h3>
+    <pre id="conforto"></pre>
+
+    <h3>🎶 Louvores:</h3>
+    <pre id="louvores"></pre>
+
+    <h3>🎼 Notas:</h3>
+    <pre id="notas"></pre>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
