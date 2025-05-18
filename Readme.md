@@ -53,6 +53,11 @@ Um projeto que combina Inteligência Artificial, espiritualidade e música para 
 ```env
 GOOGLE_API_KEY=AIza...sua_chave_aqui...
 
+docker build -t agente-cristao .
+
+docker run -it --rm --network host --name musical -e GOOGLE_API_KEY  agente-cristao
+
+
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-blue)
 ![Licença MIT](https://img.shields.io/badge/licença-MIT-green)
 ![Feito com ❤️](https://img.shields.io/badge/feito%20com-%E2%9D%A4-red)
